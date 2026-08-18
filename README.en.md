@@ -33,27 +33,6 @@ English | [中文](README.md)
 - UI language follows the page language (Chinese / English)
 - **Clean Interface**: Removed all session management buttons from the conversation header; unified access through Settings for a cleaner conversation interface
 
-## Differences from Original
-
-Compared to the original [dsh-session-manager](https://github.com/dream12347/dsh-session-manager), this version:
-
-✅ **Removed conversation header buttons**:
-- ❌ Removed "Delete This Session" button
-- ❌ Removed "Session Manager" button
-- ❌ Removed "Trash Bin" button
-
-✅ **Retained all core features**:
-- ✅ Complete session management in Settings
-- ✅ Trash bin (restore/permanently delete)
-- ✅ Archived session management
-- ✅ Activity statistics
-- ✅ Continue/pause session
-- ✅ Unread/read markers
-- ✅ Fork child session
-- ✅ Open log directory
-- ✅ Workspace management
-- ✅ Context compaction threshold
-
 ## Screenshots
 
 The Settings "Session Manager" section (workspace groups, row actions and trash):
@@ -69,7 +48,7 @@ The "Context compaction threshold" in General settings (17%–90% with slider sc
 ### From GitHub
 
 ```sh
-dsh plugin --profile web add 'https://github.com/Xinyu-lumos/dsh-session-manager.git'
+dsh plugin --profile web add 'https://github.com/Xinyu-lumos/dsh-session-delete.git'
 ```
 
 ### From a local directory
@@ -147,7 +126,7 @@ pnpm run check      # typecheck + test + build
 
 ## Acknowledgments
 
-Based on [dsh-session-manager](https://github.com/dream12347/dsh-session-manager), removed conversation header button entries for a cleaner interface experience.
+Based on [dsh-session-manager](https://github.com/dream12347/dsh-session-manager).
 
 ## License
 

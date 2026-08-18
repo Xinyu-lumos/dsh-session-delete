@@ -33,27 +33,6 @@
 - 中英文界面自适应（跟随页面语言）
 - **简洁界面**：移除对话页面顶部的所有会话管理按钮，统一通过设置访问，保持对话界面清爽
 
-## 与原版的区别
-
-相比原版 [dsh-session-manager](https://github.com/dream12347/dsh-session-manager)，本版本：
-
-✅ **移除了对话页面顶部的按钮**：
-- ❌ 删除「删除本对话」按钮
-- ❌ 删除「对话管理」按钮
-- ❌ 删除「回收站」按钮
-
-✅ **保留所有核心功能**：
-- ✅ 设置页完整的会话管理
-- ✅ 回收站（恢复/彻底删除）
-- ✅ 已归档会话管理
-- ✅ 活动统计
-- ✅ 继续/暂停会话
-- ✅ 未读/已读标记
-- ✅ Fork 子会话
-- ✅ 打开日志目录
-- ✅ 工作区管理
-- ✅ 上下文压缩阈值
-
 ## 截图
 
 设置页「会话管理」分栏（工作区分组、行操作与回收站）：
@@ -69,7 +48,7 @@
 ### 从 GitHub
 
 ```sh
-dsh plugin --profile web add 'https://github.com/Xinyu-lumos/dsh-session-manager.git'
+dsh plugin --profile web add 'https://github.com/Xinyu-lumos/dsh-session-delete.git'
 ```
 
 ### 从本地目录
@@ -148,7 +127,7 @@ pnpm run check      # typecheck + test + build
 
 ## 致谢
 
-基于 [dsh-session-manager](https://github.com/dream12347/dsh-session-manager) 修改，移除对话页面顶部的按钮入口，提供更简洁的界面体验。
+基于 [dsh-session-manager](https://github.com/dream12347/dsh-session-manager) 修改。
 
 ## License
 
