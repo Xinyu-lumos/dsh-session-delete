@@ -48,7 +48,7 @@ The "Context compaction threshold" in General settings (17%–90% with slider sc
 ### From GitHub
 
 ```sh
-dsh plugin --profile web add 'https://github.com/Xinyu-lumos/dsh-session-delete.git'
+dsh plugin --profile web add 'https://github.com/Xinyu-lumos/dsh-session-manager.git'
 ```
 
 ### From a local directory

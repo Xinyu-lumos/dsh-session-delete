@@ -48,7 +48,7 @@
 ### 从 GitHub
 
 ```sh
-dsh plugin --profile web add 'https://github.com/Xinyu-lumos/dsh-session-delete.git'
+dsh plugin --profile web add 'https://github.com/Xinyu-lumos/dsh-session-manager.git'
 ```
 
 ### 从本地目录
